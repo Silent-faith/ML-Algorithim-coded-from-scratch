@@ -19,6 +19,6 @@ In each algothim we have following files.
 
 # 2. K nearest Neighbours  
 
-**helper.py**  :- This file contains all the helping function which are needed for the prediction of the data in the KNN algorithim. It contains function for computing the distance between two vectors, finding k neares neighbours some other similar functions. 
+It ccontains all the files similar to the Linear regression. There is only one change that it does not have any **trainning.py** as KNN is a instance based learning algorithim So there is no require of traning the model So instead of **training.py** it has a  **helper.py** file which contains all the helping function which are needed for the prediction of the data in the KNN algorithim. It contains function for computing the distance between two vectors, finding k neares neighbours, finding the accuracy, finding the best value of the k, predicting the class etc. 
 
 More improvement can be dine in this algorithim like here we are comparing the test vector with all the training examples but instead of that we could built somethin likhe Kd trees, local sensitive hashing or Inverted Index So that the number of the comparision could be reduced. 
