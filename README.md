@@ -27,3 +27,7 @@ More improvement can be dine in this algorithim like here we are comparing the t
 # 3. Logistic Regression :- 
 
 The structure of the code is similar to the linear regression the only change is that instead of using the **Mean Squared Error(MSE)** we have used the **Log Loss** . We done so beacuse MSE does not form a convex function for the logistic regression cost function So we use the Log Loss So that we could get the global minimum with this I have implemented the multiclass classification using logistic Regression for this I had used One vs all project technique.
+
+
+# 4. Preprocessing :- 
+In this I have eimplementedd some preprocessing codes for rmemoving the null values in the Data from the mean of the column or by same standered data like 0, With this I had also implemented the scaling of the data by min-max scaler and encoded the non categorical feature to one hot encoding after that I implemented the Logistic regression classifer to predict the cataegory.
