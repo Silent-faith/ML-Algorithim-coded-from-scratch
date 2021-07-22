@@ -31,3 +31,12 @@ The structure of the code is similar to the linear regression the only change is
 
 # 4. Preprocessing :- 
 In this I have eimplementedd some preprocessing codes for rmemoving the null values in the Data from the mean of the column or by same standered data like 0, With this I had also implemented the scaling of the data by min-max scaler and encoded the non categorical feature to one hot encoding after that I implemented the Logistic regression classifer to predict the cataegory.
+
+# 5. SVM :- 
+For SVM sklearn library is used 
+
+# 6 Descision Tree : 
+
+Here trainning.py file is use for traning the descision tree model and after training of the model the weights of the model is stored using a pickel libray in python . 
+
+
