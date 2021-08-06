@@ -33,10 +33,14 @@ The structure of the code is similar to the linear regression the only change is
 In this I have eimplementedd some preprocessing codes for rmemoving the null values in the Data from the mean of the column or by same standered data like 0, With this I had also implemented the scaling of the data by min-max scaler and encoded the non categorical feature to one hot encoding after that I implemented the Logistic regression classifer to predict the cataegory.
 
 # 5. SVM :- 
-For SVM sklearn library is used 
+It has two diffrent folder in which one is coded using the Sklearn library and the other folder have sklearn coded from scratch 
 
 # 6 Descision Tree : 
 
 Here trainning.py file is use for traning the descision tree model and after training of the model the weights of the model is stored using a pickel libray in python . 
 
+
+# Regression : - 
+
+This folder contain the knn regression applied to the data the idea of applying KNN regression is similar to KNN clasification the only change in the metrieces to choose the threshold and the attribute value and at the end the value is assogned as the average value of the n neighbours. Similar idea could be applied to the Decision tree also to get the Descision tree regression model .
 
